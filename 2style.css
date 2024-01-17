@@ -1,0 +1,44 @@
+/* Futuristic design with dark theme and neon accents */
+body {
+  background: #222;
+  color: #fff;
+  font-family: "Futura", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+  background: #282c34;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container header {
+  padding: 1em;
+  border-bottom: 1px solid #1a1e24;
+}
+
+.container header h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.container header p {
+  margin: .5em 0 0;
+  font-size: .75em;
+  font-weight: 300;
+}
+
+.container main {
+  padding: 2em;
+}
+
+.container .btn {
+  display: inline-block;
+  padding: .5em 1em;
+  background: #2eb5ff;
+  color: #fff;
+  border-radius: 3px;
